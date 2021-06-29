@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagepopup</title>
+    <link rel="stylesheet" href="css/imageselector.css">
+</head>
+
+<body>
+    <div class="imagecontainer">
+        <div id="popup" class="popimage">
+            <img id="image" class="displayimg" src="" alt="">
+            <div>
+                <button class="button" onclick="previous()">PREVIOUS</button>
+                <button class="button" onclick="next()">NEXT</button>
+                <button class="button" onclick="close()">CLOSE</button>
+
+            </div>
+
+        </div>
+        <img src="image/covid19-vaccination-concept-design-set-260nw-1948145998.jpg" alt="" onclick="imageset(this)">
+        <img src="image/Get-Vaccinated-2.jpg" alt="" onclick="imageset(this)">
+        <img src="image/maxresdefault.jpg" alt="" onclick="imageset(this)">
+        <img src="image/pc1220schaffner_graphic_01.jpg" alt="" onclick="imageset(this)">
+        <img src="image/Upshot-QuoteCard-LYN-MORGAN.jpg" alt="" onclick="imageset(this)">
+        <img src="image/Vaccine4.png    " alt="" onclick="imageset(this)">
+    </div>
+
+
+    <script src="js/imageselector.js"></script>
+</body>
+
+</html>

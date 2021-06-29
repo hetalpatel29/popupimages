@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagecontainer {
+    height: 800px;
+    width: 90%;
+    margin: auto;
+}
+
+.imagecontainer img {
+    height: 300px;
+    width: 350px;
+}
+
+.display {
+    display: block;
+}
+
+.displayimg {
+    height: 500px;
+    width: 500px;
+    border: 2px solid gray;
+}
+
+.popimage {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    top: 30%;
+    left: 30%;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background-color: darkturquoise;
+    color: darkslategrey;
+    font-weight: bolder;
+}
